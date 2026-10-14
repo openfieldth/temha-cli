@@ -1,0 +1,30 @@
+{
+  "name": "temha-cli",
+  "version": "0.1.0",
+  "main": "cli.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "login": "node cli.js login",
+    "pull": "node cli.js pull",
+    "push": "node cli.js push",
+    "preview": "gulp --gulpfile gulpfile.mjs",
+    "serve": "gulp temha --gulpfile gulpfile.mjs"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "del": "^7.0.0",
+    "glob": "^10.4.5",
+    "gulp": "^4.0.2",
+    "postcss": "^8.5.30"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "chalk": "^5.6.2",
+    "commander": "^11.1.0",
+    "form-data": "^4.0.6",
+    "ora": "^8.0.1",
+    "uuid": "^11.1.1"
+  }
+}
